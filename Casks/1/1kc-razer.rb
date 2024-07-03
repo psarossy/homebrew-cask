@@ -8,6 +8,7 @@ cask "1kc-razer" do
   homepage "https://github.com/1kc/razer-macos"
 
   deprecate! date: "2024-07-02", because: :unmaintained
+  conflicts_with cask: "stickoking-razer"
 
   livecheck do
     url :url
