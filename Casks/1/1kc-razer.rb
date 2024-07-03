@@ -7,6 +7,8 @@ cask "1kc-razer" do
   desc "Open source colour effects manager for Razer devices"
   homepage "https://github.com/1kc/razer-macos"
 
+  deprecate! date: "2024-07-02", because: :unmaintained
+
   livecheck do
     url :url
     strategy :github_latest
